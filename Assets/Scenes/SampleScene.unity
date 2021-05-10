@@ -1604,7 +1604,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1275bc1eae743724a8be8c274b8e9d73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  restartWindow: {fileID: 1480155304}
 --- !u!4 &570422834
 Transform:
   m_ObjectHideFlags: 0
@@ -4631,7 +4630,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 30785d37f4dc78a46b0ce8014277fdc6, type: 2}
+  - {fileID: 2100000, guid: eda98ee385549e543839c4c063698bca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
