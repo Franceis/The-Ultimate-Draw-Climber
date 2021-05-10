@@ -52,6 +52,15 @@ public class Player : MonoBehaviour
         }
     }
 
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("finish"))
+        {
+            GameManager.Instance.RestarWindowOn();
+            Time.timeScale = 0f;
+        }
+    }
+
     public void Floating()
     {
         //floatUp make the targetPos up/down
